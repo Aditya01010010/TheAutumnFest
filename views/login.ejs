@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Index Page</title>
+        <link rel="stylesheet" href="/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="/css/login.css">
+        
+    </head>
+
+    <body>
+
+        <div class="header">
+
+            <div class="text">
+                <a href="/" > Autumn Fest 2020 </a>
+            </div>
+
+        </div>
+
+        <%- messages() %>
+
+        <div class="box">
+
+            <form method="POST" action="/users/login">
+
+                Email:
+                <br>
+                <input name="email" id="email" type="email" placeholder="Enter Email ID" value="<%= (!!locals.email)?email:''  %>">
+                <br><br>
+                Password:
+                <br>
+                <input name="password" id="password" type="password" placeholder="Enter Password" value="<%= (!!locals.password)?password:''  %>">
+                <br><br>
+                <p>
+                    <a href="/users/register"> Don't Have an Account?  Register </a>
+                </p>
+                <button type="submit">Login</button>            
+    
+            </form>
+
+        </div>
+
+        
+
+
+        
+    </body>
+</html>

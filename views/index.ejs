@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>Index Page</title>
+        
+        <link rel="stylesheet" href="/css/index.css">              
+    </head>
+
+    <body>
+
+        <div class="header">
+
+            <div class="text">
+                <a href="/index" > Autumn Fest 2020 </a>
+            </div>
+
+        </div>
+
+        <div class="navBar">
+            <ul>
+                <li> <a href="/users/logout">Logout</a> </li>                
+                <li> <a href="/workshops">Workshops</a> </li> 
+                <li> <a href="/events">Events </a> </li>      
+                             
+            </ul>
+        </div>   
+
+        <br><br>
+        
+        <div class="container">
+
+            <div class="heading">
+
+                <h2> User Dashboard </h2>
+
+            </div>
+
+            <br>
+
+            <div class="box1">            
+
+                <div class="paragraph"> 
+    
+                    <br><br>                
+    
+                    Hello, <%= user.name %> !   
+                    
+                    <br><br>
+
+                    <p>
+                        This is the User Dashboard. You can view your registered Events or Workshops here and cancel them if 
+                        required.
+                    </p>
+    
+                </div>
+            </div>
+
+            <br>
+
+            <div class="box2">
+
+                <div class="paragraph">
+
+                    <h3>Registered Events:</h3> 
+                    <h4> <%= user.events  %> </h4>
+                    <br>
+                    <h3>Registered Workshops:</h3>                    
+                    <h4> <%= user.workshops  %>  </h4>
+
+                </div>                          
+
+            </div>
+
+            <br>
+
+            <div class="box3">
+
+                <div class="paragraph">
+
+                    <p>
+                        <h2>Event Registrations Drop Menu</h2>
+                    </p>
+                    
+
+                    <br><br>
+                    <a href="/users/dropi">Drop DJ Night </a>
+
+                    <br><br>
+                    <a href="/users/dropii">Drop Drama Week </a>
+
+                    <br><br>
+                    <a href="/users/dropiii">Drop Futsal </a>
+
+                    <br><br>
+                    <a href="/users/dropiv">Drop Laser Tag </a>
+
+                </div>              
+
+            </div>
+
+            <br>
+
+            <div class="box4">
+
+                <div class="paragraph">
+
+                    <p>
+                        <h2>Workshop Registrations Drop Menu</h2>
+                    </p>
+    
+                    <br><br>
+                    <a href="/users/dropv">Drop Art Workshop </a>
+    
+                    <br><br>
+                    <a href="/users/dropvi">Drop Acting Workshop </a>
+    
+                    <br><br>
+                    <a href="/users/dropvii">Drop App Development Workshop </a>
+    
+                    <br><br>
+                    <a href="/users/dropviii">Drop Web Development Workshop </a> 
+
+                </div>
+
+
+            </div>
+    
+
+        </div> 
+  
+
+        <div class="footer">
+
+        </div>              
+
+    </body>
+
+</html>
