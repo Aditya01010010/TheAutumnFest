@@ -13,8 +13,8 @@ Support Frameworks:
 	ejs, mongojs, body-parser
 
 Constraints:
-	(*) Events & Workshops pages cannot be viewed without user login.
-	(*) User email verification required for event/ workshop registry.
+	(1) Events & Workshops pages cannot be viewed without user login.
+	(2) User email verification required for event/ workshop registry.
 
 Instructions:
   After downloading the code, open a new terminal and run the following command:
