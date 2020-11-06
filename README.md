@@ -1,3 +1,4 @@
+#About#
 The Autumn Fest is a web application built using Express and Node.js to promote a college festival. It supports various functionalities from user registration and login to event view and participation. User credential integrity is also taken care of in this project.
 
 Passport is used for authentication in the website.
