@@ -19,7 +19,7 @@ Bcrypt is used as a security measure while dealing with user credentials, such a
 	(2) User email verification required for event/ workshop registry.
 
 ## Instructions ##
-  After downloading the code, open a new terminal and run the following command:
-    node app
+	After downloading the code, open a new terminal and run the following command:
+    		node app
 	This command starts the website on localhost:3000
 
