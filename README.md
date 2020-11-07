@@ -6,10 +6,10 @@ Passport is used for authentication in the website.
 Bcrypt is used as a security measure while dealing with user credentials, such as passwords.
 
 ## Build ##
-  HTML, CSS, JavaScript
-  Node.js, Express.js
-  Passport.js, bcrypt.js
-  Mongo DB
+	  HTML, CSS, JavaScript,
+	  Node.js, Express.js,
+	  Passport.js, bcrypt.js,
+	  Mongo DB
 
 ## Support Frameworks ##
 	ejs, mongojs, body-parser
